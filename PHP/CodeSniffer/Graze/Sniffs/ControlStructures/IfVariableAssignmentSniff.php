@@ -75,7 +75,7 @@ class IfVariableAssignmentSniff implements Sniff
 
         for ($i = $start; $i <= $end; $i++) {
             if ($tokens[$i]['code'] === T_EQUAL) {
-                $phpcsFile->addError('Variable assigment in if statement', $stackPtr, static::ERROR_CODE);
+                $phpcsFile->addError('Variable assignment in if statement', $stackPtr, static::ERROR_CODE);
             }
         }
     }

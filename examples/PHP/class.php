@@ -50,12 +50,12 @@ class Example
         $bap = null,
         $bad = null
     ) {
-        // delcare a method with too many arguments for one line
+        // declare a method with too many arguments for one line
     }
 
     protected function protectedSomething()
     {
-        // no leading hyphen for protected method names
+        // no leading underscore for protected method names
 
         // calling a method with too many arguments for an 80 character line
         $this->methodWithManyArguments(
@@ -73,6 +73,6 @@ class Example
 
     private function privateSomething()
     {
-        // no leading hyphen for private method names
+        // no leading underscore for private method names
     }
 }
