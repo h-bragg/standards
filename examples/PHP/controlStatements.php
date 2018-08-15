@@ -69,3 +69,7 @@ try {
 
 // casting
 $int = (int) $string;
+
+// negation
+$foo = ! $bar;
+$bar = !$foo;
